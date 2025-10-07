@@ -9,6 +9,9 @@ The first file experiments with callback functions by simulating how long it tak
 ## promiseVersion.js
 The second file arrives at the same result as the callbackVersion, but using the promise/then/catch method. Each chore function is a new Promise object that accepts two arguments: the resolve and the reject. Then, the doSummerChores function is structured as a chain using .then() and .catch() to handle the resolves or rejections that arise.
 
+## asyncAwaitVersion.js
+The third file completes the same activity by using an async/await function. The doSummerChores() function is an asynchronous function, meaning it returns a Promise, and the await keywords pause the code execution until each Promise is resolved/rejected. The try, catch block is used to handle errors gracefully in the case of a Promise being rejected.
+
 ## Installation
 - Install VSCode or another code editor
 - Clone the gitHub repository
